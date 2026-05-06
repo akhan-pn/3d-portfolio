@@ -2,6 +2,8 @@
 
 This repository contains the source code for a personal 3D portfolio built with React, TypeScript, Three.js, React Three Fiber, and GSAP. It includes animated page sections, a character scene, custom cursor interactions, and smooth transitions designed for a modern portfolio experience.
 
+Live site: [https://aymankhan.vercel.app](https://aymankhan.vercel.app)
+
 Built by [Ayman Khan](https://github.com/akhan-pn) · [LinkedIn](https://www.linkedin.com/in/mohammed-ayman-khan-370319263/)
 
 ![Portfolio Preview](public/images/preview1.png)
