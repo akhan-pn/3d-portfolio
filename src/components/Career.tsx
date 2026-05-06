@@ -35,7 +35,7 @@ const Career = () => {
                 <h4>Freelancer</h4>
                 <h5>Independent</h5>
               </div>
-              <h3>2023–NOW</h3>
+              <h3>NOW</h3>
             </div>
             <p>
               Delivered 10+ WordPress sites and 6+ Shopify stores. Built custom
@@ -47,10 +47,10 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Digital Marketing & Web Developer</h4>
+                <h4>Associate Developer</h4>
                 <h5>Amvotech Solution Inc</h5>
               </div>
-              <h3>2023</h3>
+              <h3 style={{ whiteSpace: "nowrap" }}>2023–24</h3>
             </div>
             <p>
               Jan 2023 – Oct 2023. Managed and optimized Shopify stores
@@ -58,20 +58,6 @@ const Career = () => {
               Facebook Marketing and Google Ads campaigns and performed SEO to
               drive sales. Designed and maintained multiple WordPress sites
               with custom themes and improved UX/UI throughout.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>B.Tech, Computer Science</h4>
-                <h5>Ellenki College of Engineering & Tech, Hyderabad</h5>
-              </div>
-              <h3>2023–NOW</h3>
-            </div>
-            <p>
-              Pursuing a B.Tech in Computer Science Engineering alongside
-              full-time work. Previously completed a Diploma in Computer
-              Science Engineering at the same institution (2020–2023).
             </p>
           </div>
         </div>
