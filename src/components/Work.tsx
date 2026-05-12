@@ -26,25 +26,11 @@ const projects = [
     link: "https://pnow-website-v1.vercel.app",
   },
   {
-    title: "Personal Finance Dashboard",
-    category: "AI-Powered Personal Finance App",
-    tools: "Next.js, AI Integration, Modern Web Stack",
-    image: "/images/personal-finance.webp",
-    link: "https://github.com/akhan-pn/personal-finance-dashboard",
-  },
-  {
     title: "Samurai System",
     category: "Modern Web Application",
     tools: "Next.js, React, TypeScript",
     image: "/images/samurai-system.webp",
     link: "https://samurai-system.vercel.app",
-  },
-  {
-    title: "Restaurant Management",
-    category: "Restaurant Operations Platform",
-    tools: "Next.js, React, Tailwind CSS",
-    image: "/images/restaurant-management.webp",
-    link: "https://resturant-management-v1.vercel.app",
   },
   {
     title: "Lead Collector Extension",
@@ -66,6 +52,20 @@ const projects = [
     tools: "Node.js, Vanilla HTML/CSS, Vercel",
     image: "/images/vaulk-clone.webp",
     link: "https://vaulk-clone.vercel.app/en-GB",
+  },
+  {
+    title: "Personal Finance Dashboard",
+    category: "AI-Powered Personal Finance App",
+    tools: "Next.js, AI Integration, Modern Web Stack",
+    image: "/images/personal-finance.webp",
+    link: "https://github.com/akhan-pn/personal-finance-dashboard",
+  },
+  {
+    title: "Restaurant Management",
+    category: "Restaurant Operations Platform",
+    tools: "Next.js, React, Tailwind CSS",
+    image: "/images/restaurant-management.webp",
+    link: "https://resturant-management-v1.vercel.app",
   },
 ];
 
