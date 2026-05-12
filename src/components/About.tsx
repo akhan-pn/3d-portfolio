@@ -6,11 +6,10 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Frontend Developer at ProficientNow Tech, currently shipping a
-          custom ATS with React, Next.js, Tailwind, and GSAP. I blend modern
-          frontend craft with hands-on digital marketing — Shopify, SEO, ad
-          campaigns — so I build products that look great and convert. Based
-          in Hyderabad, pursuing a B.Tech in CSE.
+          Fullstack Developer at ProficientNow Tech, shipping a custom ATS
+          with React, Next.js, and Tailwind. I pair clean code with hands-on
+          digital marketing — products that look good and convert. Based in
+          Hyderabad.
         </p>
       </div>
     </div>

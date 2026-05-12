@@ -87,7 +87,7 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>FRONTEND & UI</h3>
+              <h3>FULLSTACK & UI</h3>
               <h4>Modern Web Apps That Convert</h4>
               <p>
                 Building responsive, performant web apps with React and
