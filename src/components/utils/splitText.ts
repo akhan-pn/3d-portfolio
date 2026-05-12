@@ -16,8 +16,12 @@ export default function setSplitText() {
   const paras: NodeListOf<ParaElement> = document.querySelectorAll(".para");
   const titles: NodeListOf<ParaElement> = document.querySelectorAll(".title");
 
-  const TriggerStart = window.innerWidth <= 1024 ? "top 60%" : "20% 60%";
-  const ToggleAction = "play pause resume reverse";
+  // Fire as soon as the section's top crosses the viewport bottom so the
+  // animation never gets "stuck before start" on the section right below the
+  // hero. Once played, do not reverse — guarantees content stays visible even
+  // if the user scrolls back up.
+  const TriggerStart = window.innerWidth <= 1024 ? "top bottom" : "top 90%";
+  const ToggleAction = "play none none none";
 
   paras.forEach((para: ParaElement) => {
     para.classList.add("visible");
@@ -36,6 +40,7 @@ export default function setSplitText() {
       { autoAlpha: 0, y: 80 },
       {
         autoAlpha: 1,
+        immediateRender: false,
         scrollTrigger: {
           trigger: para.parentElement?.parentElement,
           toggleActions: ToggleAction,
@@ -62,6 +67,7 @@ export default function setSplitText() {
       { autoAlpha: 0, y: 80, rotate: 10 },
       {
         autoAlpha: 1,
+        immediateRender: false,
         scrollTrigger: {
           trigger: title.parentElement?.parentElement,
           toggleActions: ToggleAction,
