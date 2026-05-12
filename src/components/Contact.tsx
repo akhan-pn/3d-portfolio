@@ -79,9 +79,6 @@ const Contact = () => {
             </a>
           </div>
           <div className="contact-box">
-            <h2>
-              Designed and Developed <br /> by <span>Ayman Khan</span>
-            </h2>
             <h5>
               <MdCopyright /> 2026
             </h5>
