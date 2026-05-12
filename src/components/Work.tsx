@@ -5,13 +5,6 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "ATS Frontend",
-    category: "Recruiter Dashboard & Applicant Tracking System",
-    tools: "React, Next.js, TypeScript, Tailwind CSS, GSAP",
-    image: "/images/ats-frontend.webp",
-    link: "https://ats-frontend-seven.vercel.app",
-  },
-  {
     title: "ProficientNow Healthcare",
     category: "Healthcare Marketing Site",
     tools: "Next.js 16, TypeScript, Tailwind CSS, shadcn/ui, Airtable",
@@ -19,11 +12,25 @@ const projects = [
     link: "https://pnow-healthcare.vercel.app",
   },
   {
+    title: "ATS Frontend",
+    category: "Recruiter Dashboard & Applicant Tracking System",
+    tools: "React, Next.js, TypeScript, Tailwind CSS, GSAP",
+    image: "/images/ats-frontend.webp",
+    link: "https://ats-frontend-seven.vercel.app",
+  },
+  {
     title: "ProficientNow Website",
     category: "Corporate Recruiting Site",
     tools: "Next.js, TypeScript, Tailwind CSS",
     image: "/images/pnow-website.webp",
     link: "https://pnow-website-v1.vercel.app",
+  },
+  {
+    title: "Personal Finance Dashboard",
+    category: "AI-Powered Personal Finance App",
+    tools: "Next.js, AI Integration, Modern Web Stack",
+    image: "/images/personal-finance.webp",
+    link: "https://github.com/akhan-pn/personal-finance-dashboard",
   },
   {
     title: "Samurai System",
@@ -40,6 +47,13 @@ const projects = [
     link: "https://resturant-management-v1.vercel.app",
   },
   {
+    title: "Lead Collector Extension",
+    category: "Chrome Extension for Lead Capture",
+    tools: "Chrome Extension API, JavaScript, DOM Scraping",
+    image: "/images/lead-collector.webp",
+    link: "https://leads-upload-main-we58.vercel.app",
+  },
+  {
     title: "Netflix Clone",
     category: "Streaming UI Clone",
     tools: "React, Tailwind CSS, Vite",
@@ -52,20 +66,6 @@ const projects = [
     tools: "Node.js, Vanilla HTML/CSS, Vercel",
     image: "/images/vaulk-clone.webp",
     link: "https://vaulk-clone.vercel.app/en-GB",
-  },
-  {
-    title: "Personal Finance Dashboard",
-    category: "AI-Powered Personal Finance App",
-    tools: "Next.js, AI Integration, Modern Web Stack",
-    image: "/images/personal-finance.webp",
-    link: "https://github.com/akhan-pn/personal-finance-dashboard",
-  },
-  {
-    title: "Lead Collector Extension",
-    category: "Chrome Extension for Lead Capture",
-    tools: "Chrome Extension API, JavaScript, DOM Scraping",
-    image: "/images/lead-collector.webp",
-    link: "https://leads-upload-main-we58.vercel.app",
   },
 ];
 
