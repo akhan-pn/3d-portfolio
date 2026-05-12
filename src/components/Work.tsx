@@ -22,7 +22,7 @@ const projects = [
     title: "Vaulk Clone",
     category: "Static Site Clone with Local Dev Server",
     tools: "Node.js, Vanilla HTML/CSS, Vercel",
-    image: "/images/vaulk-clone.png",
+    image: "/images/vaulk-clone.webp",
     link: "https://vaulk-clone.vercel.app/en-GB",
   },
   {
